@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel GG</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Início da barra de navegação -->
@@ -84,10 +86,12 @@
 
     <!-- Fim do carousel -->
 
+    <!-- Início da reserva -->
+
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <form>
+                <form id="reservas_superior">
                     <label>Faça sua Reserva Aqui<label>
                     <label>Check-In:
                         <input type="date" id="checkin" required>
@@ -99,8 +103,40 @@
         </div>
     </div>
 
+    <!-- Fim da reserva -->
 
+<!-- Início do rodapé(footer) -->
 
+<div class="card text-center">
+  <div class="card-header fundo">
+    <a href="http://www.facebook.com" target="_blank">
+      <i class="bi bi-facebook"></i>
+    </a>
+
+    <a href="http://www.instagram.com" target="_blank">
+      <i class="bi bi-instagram"></i>
+    </a>
+
+    <a href="http://www.youtube.com" target="_blank">
+      <i class="bi bi-youtube"></i>
+    </a>
+
+    <a href="http://www.twitter.com" target="_blank">
+      <i class="bi bi-twitter"></i>
+    </a>
+  </div>
+  <div class="card-body fundo2">
+    <h5 class="card-title">Onde estamos</h5>
+    <p class="card-text">
+      Rua Costa Rica, 203,<br>
+      Jardins - São Paulo - SP - CEP: 01437-010<br>
+      Telefone: +55(11)4002-8922 | +55(11)95900-7070
+    </p>
+    <a href="https://wa.me/1195907070?text=Ola" class="btn btn-success"> <i class="bi bi-whatsapp"> </i>WhatsApp</a>
+  </div>
+</div>
+
+<!-- Fim do footer(rodapé) -->
 
     <script src="js/bootstrap.min.js"></script>
 </body>
