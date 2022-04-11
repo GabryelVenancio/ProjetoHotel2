@@ -1,0 +1,29 @@
+#reservas_superior {
+  padding: 10px;
+  text-align: center;
+  background-color: silver;
+}
+#reservas_superior label {
+  font-family: small;
+  font-size: 15pt;
+  margin-left: 20px;
+  margin-right: 5px;
+  background-color: silver;
+}
+#reservas_superior input {
+  padding: 5px;
+}
+.fundo {
+  background-color: slategrey;
+  color: black;
+}
+.fundo a {
+  text-decoration: none;
+  font-size: 12pt;
+  color: black;
+  margin: 3px;
+}
+.fundo2 {
+  background-color: silver;
+  color: black;
+}
