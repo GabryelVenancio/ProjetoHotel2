@@ -25,3 +25,11 @@
   background-color: silver;
   color: black;
 }
+.fundo-branco {
+  background-color: white;
+}
+body {
+  background-image: url("../img/lazer8.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
