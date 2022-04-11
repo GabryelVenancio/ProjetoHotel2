@@ -88,7 +88,7 @@
 
     <!-- Início da reserva -->
 
-    <div class="container-fluid">
+    <div class="container-fluid fundo-branco">
         <div class="row">
             <div class="col">
                 <form id="reservas_superior">
@@ -100,6 +100,45 @@
                     <input type="submit" id="btnreservar" value="Reserva">
                 </form>
             </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h2>Reservas</h2>
+            <!-- Início do formulário -->
+
+
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputNome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="inputNome">
+              </div>
+              <div class="col-md-6">
+                <label for="inputemail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputemail">
+              </div>
+              <div class="col-4">
+                <label for="inputSuite" class="form-label">Suite</label>
+                <input type="text" class="form-control" id="inputSuite">
+              </div>
+              <div class="col-4">
+                <label for="inputSuite" class="form-label">Check-In</label>
+                <input type="date" class="form-control" id="inputCheckin">
+              </div>
+              <div class="col-4">
+                <label for="inputSuite" class="form-label">Check-Out</label>
+                <input type="date" class="form-control" id="inpuyCheckout">
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Reservar</button>
+              </div>
+            </form>
+
+
+            <!-- Início do formulário -->
+
+          </div>
         </div>
     </div>
 
